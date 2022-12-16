@@ -21,5 +21,10 @@ public interface IUserService extends IService<User> {
     void add(UserSaveDTO req);
 
 
-
+    /**
+     * 获取
+     * @param id
+     * @return
+     */
+    User get(Integer id);
 }

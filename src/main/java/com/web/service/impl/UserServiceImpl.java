@@ -40,6 +40,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         addLog(req);
     }
 
+    /**
+     * 获取
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public User get(Integer id) {
+        return userMapper.selectById(id);
+    }
+
     private void addLog(UserSaveDTO req) {
         log.info("add userLog {}", req);
         if ("".equals(req.getName())) {

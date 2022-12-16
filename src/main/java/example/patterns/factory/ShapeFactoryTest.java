@@ -1,4 +1,4 @@
-package com.example.patterns.factory;
+package example.patterns.factory;
 
 /**
  * @author com.luo.prodemo.luo
@@ -15,13 +15,13 @@ public class ShapeFactoryTest {
         rectangle.draw(); // 输出 "Drawing rectangle..."
 
         ShapeFactoryRef factoryRef = new ShapeFactoryRef();
-        Shape circleRef  = factoryRef.getShape("com.example.patterns.factory.Circle");
+        Shape circleRef  = factoryRef.getShape("example.patterns.factory.Circle");
         circleRef.draw(); // 输出 "Drawing circle..."
 
-        Shape rectangleRef  = factoryRef.getShape("com.example.patterns.factory.Rectangle");
+        Shape rectangleRef  = factoryRef.getShape("example.patterns.factory.Rectangle");
         rectangleRef.draw(); // 输出 "Drawing rectangle..."
 
-        Shape rectangleRef2  = factoryRef.getShape("com.example.patterns.factory.Rectangle2");
+        Shape rectangleRef2  = factoryRef.getShape("example.patterns.factory.Rectangle2");
         rectangleRef2.draw(); // 输出 "Drawing rectangle2..."
     }
 }

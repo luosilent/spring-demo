@@ -1,4 +1,4 @@
-package com.example.patterns.factory;
+package example.patterns.factory;
 
 /**
  * @author admin

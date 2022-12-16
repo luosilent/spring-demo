@@ -1,7 +1,7 @@
 package com;
 
-import com.example.patterns.factory.Shape;
-import com.example.patterns.factory.ShapeFactory;
+import example.patterns.factory.Shape;
+import example.patterns.factory.ShapeFactory;
 
 /**
  * @author com.luo.prodemo.luo
